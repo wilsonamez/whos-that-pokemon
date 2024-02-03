@@ -76,7 +76,7 @@ button.wrong {
 
 #loadingContainer {
     height: 500px;
-    display: none;
+    /* display: none; */
 }
 
 #loadingIcon {
