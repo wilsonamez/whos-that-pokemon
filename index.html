@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Who's That Pokemon?</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
-    <script src="script.js" defer></script>
+    <div class="container">
+        <h4 id="result" class="header">Who's that Pokemon?</h4>
+        <img id="pokemonImage" alt="Pokemon Image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg">
+        <div id="options" class="options-container">
+            <button>ditto</button>
+            <button>pikachu</button>
+            <button>squirtle</button>
+            <button>mr-mime</button>
+        </div>
+        <h4 id="points">
+            Points: <span id="pointsValue">0</span>/<span id="totalCount">0</span>
+        </h4>
+    </div>
 </body>
 </html>
